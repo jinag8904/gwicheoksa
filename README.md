@@ -168,7 +168,7 @@ Assets/
 이동 가능한 칸 계산은 사람(`DragAndDrop`)과 AI(`AIController`)가 같은 `PieceMoveCalculator`를 사용합니다. 갈림길·참먹이·뒷도 같은 이동 규칙이 한 곳에만 있어, AI와 사람이 갈 수 있는 칸이 달라지지 않습니다.
 
 **4. 튜토리얼을 위한 결정론 주입**
-`ThrowYut.ForcedResults` 큐로 윷 결과를 강제 주입하고 `InputBlocker`로 입력을 단계별 제한해, 튜토리얼 전용 게임 로직 분기 없이 9스텝 시나리오를 구성했습니다.
+`ThrowYut.ForcedResults` 큐로 윷 결과를 강제 주입하고 `InputBlocker`로 입력을 단계별 제한해, 윷 판정·말 이동 코드는 본 게임과 같은 것을 쓰면서 9스텝 시나리오를 구성했습니다.
 
 **5. 접근성 · 편의**
 2배속, 윷 자동 던지기, 이동 가능 말 하이라이트, 윷 결과 가이드 팝업, 스킬 툴팁을 제공합니다. 옵션은 PlayerPrefs에 영구 저장됩니다.
