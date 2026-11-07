@@ -3,6 +3,10 @@
 > 한국 전통 윷놀이(擲柶)를 귀신들의 대결로 재해석한 3D 턴제 보드게임
 > Unity 6 · C# · 1인 개발 (기획 / 프로그래밍 / 연출)
 
+![귀척사 플레이 화면](docs/images/gameplay.png)
+
+원본 저장소: [Devel-Rocket-ClassRoom/minigame-project-jinag8904](https://github.com/Devel-Rocket-ClassRoom/minigame-project-jinag8904)
+
 촛불 하나만 켜진 한옥 안채, 낡은 상 위에 윷판이 놓여 있습니다.
 마주 앉은 상대는 사람이 아닙니다. 네 개의 윷가락을 던져 네 망령을 모두 해방시키면 승리합니다.
 
